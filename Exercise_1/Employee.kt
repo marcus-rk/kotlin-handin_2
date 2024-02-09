@@ -6,7 +6,7 @@ class Employee (
     private var monthlySalary: Double) {
 
     init {
-        this.monthlySalary = if (monthlySalary > 0) monthlySalary else 0.0
+        this.monthlySalary = if (monthlySalary > 0) monthlySalary else 0.0 // could also throw error
     }
 
     // Calculate yearly salary based on monthly salary
