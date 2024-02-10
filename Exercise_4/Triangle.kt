@@ -9,6 +9,7 @@ class Triangle(
     private val sideB: Double,
     private val sideC: Double
 ) : Shape(color, isTransparent) {
+
     override fun calculatePerimeter(): Double {
         return sideA + sideB + sideC
     }

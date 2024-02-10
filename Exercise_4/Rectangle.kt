@@ -6,6 +6,7 @@ class Rectangle(
     private val height: Double,
     private val width: Double
 ) : Shape(color, isTransparent) {
+
     override fun calculatePerimeter(): Double {
         return calculateArea() * 2
     }
