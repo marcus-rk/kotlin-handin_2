@@ -1,7 +1,5 @@
 package Exercise_4
 
-import Exercise_3.Product
-
 fun main() {
     // Create instances of Circle, Rectangle and Triangle
     val circle: Circle = Circle("White", isTransparent = true, 12.25)
