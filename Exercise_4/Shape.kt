@@ -1,5 +1,6 @@
 package Exercise_4
 
+// NOTE: Could also be done as an Interface
 abstract class Shape (
     private val color: String,
     private var isTransparent: Boolean
